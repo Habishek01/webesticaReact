@@ -1,4 +1,5 @@
 {
+  "homepage": "http://habishek01.github.io/webesticaReact",
   "name": "web",
   "version": "0.1.0",
   "private": true,
@@ -13,9 +14,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
+    "build": "react-scripts build && cp build/index.html build/404.html"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
