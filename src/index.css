@@ -1,4 +1,6 @@
-.totalArea {
+body{
+  margin: 0;
+}.totalArea {
   background-color: #eff2f6;
   height: 300vh;
   font-family: sans-serif;
@@ -19,7 +21,9 @@
   max-height: 40px;
   width: 100%;
   background-color: white;
-  padding-bottom: 8px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  position: fixed;
 }
 
 #navBar {
@@ -55,7 +59,7 @@
   border: none;
   border-radius: 5px;
   margin-left: 20px;
-  width: 300px;
+  width: 250px;
   padding-left: 40px;
 }
 
@@ -76,7 +80,7 @@
   align-items: center;
   font-size: 16px;
   font-family: sans-serif;
-  margin-left: 209px;
+  margin-left: 224px;
   font-weight: bold;
   color: gray;
 }
@@ -88,6 +92,7 @@
 
 #navBar3 {
   display: flex;
+  margin-right: 35px;
 }
 
 .material-icons {
@@ -108,6 +113,7 @@
   width: 23%;
   display: inline-block;
   border-radius: 5px;
+  margin-top: 55px;
 }
 
 .middleContainer {
@@ -115,15 +121,24 @@
   width: 49%;
   vertical-align: top;
   padding-left: 20px;
+  margin-top: 55px;
 }
 
 .rightContainer {
   width: 23%;
   display: inline-block;
-  background-color: white;
+  /* background-color: white; */
   border-radius: 5px;
   vertical-align: top;
   margin-left: 20px;
+  margin-top: 55px;
+}
+.rightContainer1{
+  background-color: white;
+  border-radius: 5px;
+}
+.rightContainer1-1{
+  margin-bottom: 10px;
 }
 
 .leftContainer1 {
@@ -447,8 +462,9 @@
 
 .rightContainerName {
   display: inline-block;
-  margin-left: 5px;
+  margin-left: 10px;
   width: 130px;
+  vertical-align: top;
 }
 
 .rc1Button {
@@ -459,15 +475,65 @@
   color: #0f6fec;
   background-color: rgba(15, 111, 236, 0.1);
   /* margin-top: 20px; */
-  /* vertical-align: top; */
+  vertical-align: top;
+}
+.rightContainerName h4{
+  margin: 0%;
 }
 
 .rc1Job {
   font-size: 13.5px;
   color: grey;
-  margin-top: -15px;
+  margin-top: 5px;
 }
 
 .rc1H3 {
-  margin-left: 20px;
+  margin-left: 25px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+.rc2Button {
+    width: 210px;
+      height: 30px;
+      border-style: none;
+      background-color: #e7f0fd;
+      color: #1d6fec;
+      margin-bottom: 25px;
+}
+.rightContainer2{
+  background-color: white;
+  border-radius: 5px;
+}
+.rightContainer1-2{
+  text-align: center;
+}
+.rc3h{
+  text-align: start;
+  margin-left: 30px;
+  padding-top: 20px;
+}
+.rightContainer2 li{
+  font-weight: bold;
+  font-size: 16px;
+  margin-right: 13px;
+  margin-left: -10px;
+}
+.rightContainer2 ul{
+  list-style: none;
+}
+.rightContainer2 p{
+  font-size: small;
+  margin: 0;
+  color: grey;
+  margin-left: -10px;
+}
+#rc2span{
+margin-left: 20px;
+
+}
+#rc2p{
+  vertical-align: top;
+  font-size: small;
+  margin-left: 5px;
 }
