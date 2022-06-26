@@ -1,0 +1,67 @@
+.navBar {
+  height: 50px;
+  /* width: 100%; */
+  text-align: center;
+  /* position: fixed; */
+}
+#avatar {
+  height: 40px;
+  width: auto;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.container {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 1200px;
+  padding-top: 10px;
+}
+.leftContainer,
+.rightContainer,
+.link,
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-container {
+  position: relative;
+  left: 15px;
+}
+.material-symbols-outlined {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  color: grey;
+}
+.search {
+  padding-left: 40px;
+  font-size: 14px;
+  border-radius: 5px;
+  height: 40px;
+  background-color: #f0f0f0;
+  border: none;
+  width: 270px;
+}
+.rightContainer {
+  color: grey;
+}
+.link span {
+  font-weight: 600;
+  color: grey;
+}
+
+.button {
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 40px;
+  margin-left: 10px;
+}
+.material-icons {
+  font-size: 17px;
+  color: grey;
+}
+.dropDown {
+  padding-right: 25px;
+}
