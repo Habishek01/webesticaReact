@@ -1,0 +1,34 @@
+body {
+  background-color: #eff2f6;
+}
+
+.container {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.app {
+  display: inline-block;
+  width: 1200px;
+}
+
+.left,
+.middle,
+.right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.left,
+.right {
+  width: 24%;
+}
+
+.right {
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
+.middle {
+  width: 50%;
+}

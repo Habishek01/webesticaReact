@@ -6,16 +6,22 @@ import RightContainer from "./RightContainer";
 
 function App() {
   return (
-    <div className="App">
-      <div className="totalArea">
-        <NavBar />
-        <div className="container">
-          <LeftContainer />
-          <MiddleContainer />
-          <RightContainer />
+    <>
+      <NavBar />
+      <div className="container">
+        <div className="app">
+          <div className="left">
+            <LeftContainer />
+          </div>
+          <div className="middle">
+            <MiddleContainer />
+          </div>
+          <div className="right">
+            <RightContainer />
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

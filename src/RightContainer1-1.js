@@ -1,9 +1,9 @@
 export default function RightContainer1(props) {
   return (
-    <div className="rightContainer1-1">
+    <div className="rContainer1-1">
       <img alt="" className="rc1Image" src={props.src} />
-      <div className="rightContainerName">
-        <h4>{props.name}</h4>
+      <div className="rContainerName">
+        <p>{props.name}</p>
         <p className="rc1Job">{props.job}</p>
       </div>
       <button className="rc1Button">

@@ -1,67 +1,62 @@
-.navBar {
-  height: 50px;
-  /* width: 100%; */
+.nb-container {
   text-align: center;
-  /* position: fixed; */
+  height: 56px;
+  padding: 10px 0;
+  background-color: #fff;
 }
-#avatar {
-  height: 40px;
-  width: auto;
-  border-radius: 5px;
-  margin-left: 10px;
-}
-.container {
+.navbar {
   display: inline-flex;
   justify-content: space-between;
   width: 1200px;
-  padding-top: 10px;
 }
 .leftContainer,
 .rightContainer,
-.link,
-.input-container {
+.link {
   display: flex;
   align-items: center;
 }
-
-.search-container {
+.searchForm {
+  align-items: center;
+  display: flex;
+  margin-left: 1rem;
   position: relative;
-  left: 15px;
 }
-.material-symbols-outlined {
+.searchIcon {
   position: absolute;
-  top: 6px;
-  left: 6px;
-  color: grey;
+  left: 5px;
 }
-.search {
-  padding-left: 40px;
-  font-size: 14px;
+.searchInput {
+  background-color: #eff2f6;
+  border: 1px solid rgb(225, 228, 230);
   border-radius: 5px;
+  font-size: 14px;
   height: 40px;
-  background-color: #f0f0f0;
-  border: none;
+  margin-top: -2px;
+  padding-left: 40px;
   width: 270px;
 }
-.rightContainer {
-  color: grey;
-}
-.link span {
+.link {
+  color: #676a69;
   font-weight: 600;
-  color: grey;
+  margin-right: 16px;
 }
-
+.dropDown {
+  margin-left: 5px;
+}
 .button {
   border: none;
   border-radius: 5px;
   height: 40px;
-  width: 40px;
-  margin-left: 10px;
+  width: 38px;
+  margin-right: 10px;
+  /* padding: 0 12.5px; */
 }
-.material-icons {
-  font-size: 17px;
-  color: grey;
+.iconButton {
+  color: #676a79;
+  font-size: 17.5px;
+  vertical-align: middle;
 }
-.dropDown {
-  padding-right: 25px;
+.avatar {
+  height: 36px;
+  border-radius: 5px;
 }

@@ -1,5 +1,6 @@
 import Mc1Accounts from "./Mc1Accounts";
 import MiddleContainer3 from "./MiddleContainer3";
+import "./MiddleContainer.css";
 
 export default function MiddleContainer() {
   return (
@@ -23,6 +24,14 @@ export default function MiddleContainer() {
           src="https://social.webestica.com/assets/images/post/1by1/04.jpg"
           name="Carolyn Ortiz"
         />
+        <Mc1Accounts
+          src="https://social.webestica.com/assets/images/post/1by1/05.jpg"
+          name="Amanda Reed"
+        />
+        <Mc1Accounts
+          src="https://social.webestica.com/assets/images/post/1by1/01.jpg"
+          name="Lori Stevens"
+        />
       </div>
       <div className="middleContainer2">
         <div className="mc2">
@@ -40,7 +49,7 @@ export default function MiddleContainer() {
             ></textarea>
           </div>
           <div className="mc2Icons">
-            <button id="buttonmc2">
+            <button id="buttonmc2" className="mc22Icons">
               <i className="fa-solid fa-image" id="mc2Icon1"></i>
               <span className="mc2Text">Photo</span>
             </button>

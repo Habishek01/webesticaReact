@@ -8,7 +8,7 @@ export default function MiddleContainer3() {
           src="	https://social.webestica.com/assets/images/avatar/04.jpg"
         />
         <div className="mc3Name">
-          <h3>Lori Ferguson</h3>
+          <span>Lori Ferguson</span>
           <span className="center-dot">·</span>
           <span id="mc3Name2">2 hr</span>
         </div>
@@ -16,7 +16,7 @@ export default function MiddleContainer3() {
       <div className="mc3Content2">
         <p>Web Developer at Webestica</p>
         <button className="mc3button">
-          <span id="mc2Icon5" className="material-icons">
+          <span id="mc3Icon5" className="material-icons">
             more_horiz
           </span>
         </button>

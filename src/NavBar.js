@@ -2,17 +2,20 @@ import "./navBar.css";
 
 export default function NavBar() {
   return (
-    <div className="navBar">
-      <div className="container">
+    <div className="nb-container">
+      <div className="navbar">
         <div className="leftContainer">
           <img
             alt=""
             src="https://social.webestica.com/assets/images/logo.svg"
           />
-          <form className="search-container">
-            <span className="material-symbols-outlined"> search </span>
+          <form className="searchForm">
+            <span className="material-symbols-outlined searchIcon">
+              {" "}
+              search{" "}
+            </span>
             <input
-              className="search"
+              className="searchInput"
               type="search"
               placeholder="Search..."
               aria-label="Search"
@@ -38,16 +41,16 @@ export default function NavBar() {
           </div>
 
           <button className="button">
-            <span className="material-icons"> chat </span>
+            <span className="material-icons iconButton"> chat </span>
           </button>
           <button className="button">
-            <span className="material-icons"> settings </span>
+            <span className="material-icons iconButton"> settings </span>
           </button>
           <button className="button">
-            <span className="material-icons"> notifications </span>
+            <span className="material-icons iconButton"> notifications </span>
           </button>
           <img
-            id="avatar"
+            className="avatar"
             src="https://social.webestica.com/assets/images/avatar/07.jpg"
             alt=""
           />

@@ -1,15 +1,17 @@
+import "./leftContainer.css";
+
 export default function LeftContainer() {
   return (
-    <div className="leftContainer">
-      <div>
+    <div className="appLeft">
+      <div className="lcMain">
         <div className="leftContainer1">
           <img
             alt=""
-            id="backgroundImg"
+            className="backgroundImg"
             src={process.env.PUBLIC_URL + "/01.jpg"}
           />
           <img
-            id="avatar2"
+            className="avatar2"
             src="https://social.webestica.com/assets/images/avatar/07.jpg"
             alt=""
           />
@@ -18,7 +20,7 @@ export default function LeftContainer() {
           <h3>Sam Lanson</h3>
           <p className="commentsText">Web Developer at Webestica</p>
           <p className="pText">
-            I'd love to change the world, but they won’t give me the source
+            I'd love to change the world, but they won't give me the source
             code.
           </p>
         </div>
@@ -39,6 +41,8 @@ export default function LeftContainer() {
             <div className="hr"></div>
           </div>
         </div>
+        <div className="bottomBorder"></div>
+
         <div className="leftContainer4">
           <div className="leftContainer4Content">
             <img
@@ -100,6 +104,7 @@ export default function LeftContainer() {
         <div className="seperatingLine"></div>
         <div className="profile">View Profile</div>
       </div>
+
       <div className="leftContainer5">
         <div className="leftContainer5Content">
           <span>About</span>

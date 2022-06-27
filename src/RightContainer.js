@@ -1,5 +1,6 @@
 import RightContainer1 from "./RightContainer1-1";
 import RightContainer2 from "./RightContainer1-2";
+import "./RightContainer.css";
 
 export default function RightContainer() {
   const people = [
@@ -37,9 +38,9 @@ export default function RightContainer() {
     { news: "Skills that you can learn from business", time: "6hr" },
   ];
   return (
-    <div className="rightContainer">
-      <div className="rightContainer1">
-        <h3 className="rc1H3">Who to follow</h3>
+    <div className="rContainer">
+      <div className="rContainer1">
+        <p className="rc1H3">Who to follow</p>
         {people.map((user, index) => (
           <RightContainer1
             src={user.src}
@@ -48,17 +49,17 @@ export default function RightContainer() {
             icon={user.icon}
           />
         ))}
-        <div className="rightContainer1-2">
+        <div className="rContainer1-2">
           <button className="rc2Button">View More</button>
         </div>
       </div>
-      <div className="rightContainer2">
+      <div className="rContainer2">
         <h3 className="rc3h">Today's news</h3>
         {news.map((contents, index) => (
           <RightContainer2 news={contents.news} time={contents.time} />
         ))}
 
-        <div>
+        <div className="rContainer2-2">
           <span id="rc2span" className="material-icons">
             more_horiz
           </span>

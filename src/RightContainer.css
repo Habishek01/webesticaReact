@@ -1,0 +1,81 @@
+.rContainer1,
+.rContainer2 {
+  background-color: white;
+  border-radius: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.rc1Image {
+  height: 48px;
+  border-radius: 50%;
+}
+.rc1Button {
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  padding: 12px 13px;
+  color: blue;
+  background-color: rgba(15, 111, 236, 0.1);
+}
+.rContainer1-1 {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  margin-top: -10px;
+}
+.rContainerName > p:nth-child(1) {
+  font-weight: 600;
+}
+.rContainerName {
+  margin-left: -35px;
+  text-align: initial;
+}
+.rc1H3 {
+  text-align: start;
+  font-weight: 600;
+  font-size: larger;
+  margin-top: 0px;
+  padding-top: 20px;
+}
+.rc1Job {
+  margin-top: -10px;
+  font-size: smaller;
+  color: gray;
+}
+.rc2Button {
+  width: 96%;
+  height: 34px;
+  margin-bottom: 25px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  color: blue;
+  background-color: rgba(15, 111, 236, 0.1);
+}
+.rContainer2 {
+  text-align: start;
+}
+.rContainer2-1 > ul {
+  list-style: none;
+  padding: 0;
+}
+.rContainer2-1 > ul > li {
+  font-weight: 600;
+}
+.rContainer2-1 > ul > p {
+  font-size: smaller;
+  color: grey;
+  margin-top: 0;
+}
+.rc3h {
+  margin-top: 25px;
+  padding-top: 25px;
+}
+.rContainer2-2 {
+  display: flex;
+  font-size: 13px;
+}
+.rc2p {
+  margin-right: 10px;
+}

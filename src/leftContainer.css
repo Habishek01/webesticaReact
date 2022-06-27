@@ -1,0 +1,104 @@
+.appLeft .lcMain {
+  background-color: #fff;
+  border-radius: 5px;
+}
+.appLeft .backgroundImg {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  width: 100%;
+  height: 50px;
+}
+
+.appLeft .avatar2 {
+  border: 3px solid white;
+  border-radius: 5px;
+  height: 64px;
+  margin-top: -15px;
+}
+
+.commentsText,
+.pText {
+  color: #676a79;
+}
+.commentsText {
+  font-size: 13.5px;
+  margin-top: -15px;
+}
+.pText {
+  font-size: 16px;
+}
+
+.leftContainer3 > div {
+  display: inline-block;
+  padding: 10px;
+  padding-right: 20px;
+}
+
+.leftContainer3 > div:nth-child(2) {
+  border: 0.5px solid #676a7940;
+  border-top: 0;
+  border-bottom: 0;
+}
+
+.item1-1 {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.item1-2 {
+  color: #676a79;
+  font-weight: 400;
+  font-size: 13.5px;
+}
+
+.bottomBorder,
+.seperatingLine {
+  border-bottom: 1px solid #676a7940;
+  margin: 10px 20px 20px;
+}
+
+.leftContainer4 {
+  padding-left: 20px;
+  text-align: left;
+}
+
+.leftContainer4Content {
+  align-items: center;
+  display: flex;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.leftContainer4Content img {
+  height: 20px;
+  margin-right: 10px;
+}
+
+.seperatingLine {
+  margin: 0;
+}
+
+.profile {
+  color: #0f6fec;
+  padding: 10px 0;
+  font-weight: 600;
+  font-size: smaller;
+}
+.leftContainer5 {
+  font-size: smaller;
+  color: grey;
+  margin-top: 25px;
+}
+.leftContainer5Content {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 10px;
+}
+.leftContainer5Content1 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+.leftContainer5Content1 > span:nth-child(2) {
+  padding-left: 30px;
+}
